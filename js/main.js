@@ -35,6 +35,7 @@ for(var pokemon of pokemons){
     elColChild.setAttribute("class", "shadow bg-body d-flex flex-column align-items-center justify-content-between rounded h-100 p-3");
     elImg.setAttribute("src", pokemon.img);
     elImg.setAttribute("class", "w-75");
+    elImg.setAttribute("height", "205");
     elName.textContent = pokemon.name;
     elName.setAttribute("class", "fs-2 fw-bold my-2")
     elType.setAttribute("class", "m-0 p-0");
